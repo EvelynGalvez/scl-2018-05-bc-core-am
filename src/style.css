@@ -1,1 +1,60 @@
 /* Acá va tu código */
+header {
+    width: 100%;
+    background: black;
+    opacity: 0.5;
+    padding-top:10px;
+    padding-left:5px;
+    padding-right:5px;
+    margin-bottom:0px;
+    text-align:center;
+    color: white;
+    font-size: 30px;
+   }
+
+
+body {
+    margin:0;
+    padding:0;
+    background:transparent url(https://thumbs.dreamstime.com/b/der-junge-hacker-im-datensicherheitskonzept-84376129.jpg) no-repeat 0 -60px;
+    background-size: cover;
+
+    
+   }
+
+.parrafo{
+    color: white;
+    background-position: center;
+    width: 200px;
+    padding:10px;
+    margin: 10px;
+    text-align: left;
+    height: 10px;
+    font-size: 20px;
+}
+
+
+
+input, textarea {
+    width: 500px;
+    background-color: white;
+    opacity: 0.6;
+    padding: 20px;
+    margin: 20px;
+    border: 0;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    color:black
+    font-size: 30px;
+    height: 200px;
+    background-position: center;
+}
+
+#button1 {
+    align-content: center
+}
+
+.caja {
+background-position: center
+}
