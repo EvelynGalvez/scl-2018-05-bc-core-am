@@ -15,19 +15,16 @@ window.cipher = {
             i++;
     } 
   }
-  /*console.log(readyPhrase1);*/
-  let final = readyPhrase1.join('');
-  return final.toLowerCase();
+  let final1 = readyPhrase1.join('');
+  return final1.toLowerCase();
 },
 
   decode: (initialToDecode, displacementDecode) => {
     /* Acá va tu código */
     let readyPhrase2 = [];
     let decipheredPhrase = [];
-    let offsetDecode = prompt('Ingresa desplazamiento: ');
-    let initialToDecode = prompt('Ingresa palabra: ');
     let i = 0;
-    while (i < initialDecode.length) { 
+    while (i < initialToDecode.length) { 
       decipheredPhrase[i] = (initialToDecode.toUpperCase(i).charCodeAt(i) + 65 - parseInt(displacementDecode)) % 26 + 65;
       if (initialToDecode.charCodeAt(i) === 32) {
         decipheredPhrase[i] = ' ';
@@ -38,7 +35,7 @@ window.cipher = {
           i++;
       }
    }
-  return readyPhrase2;
-  console.log(readyPhrase2);
+  let final2 = readyPhrase2.join('');
+  return final2.toLowerCase();
 },
 }

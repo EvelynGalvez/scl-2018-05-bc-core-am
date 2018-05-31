@@ -9,4 +9,10 @@ window.onload = () => {
         let displacementCode = document.getElementById('number').value;
         document.getElementById('mensajePrograma').innerHTML = window.cipher.encode(initialToCode, displacementCode);   
     });
+
+    encodeButton.addEventListener('click', () => {
+        let initialToDecode = document.getElementById('mensajeUsuario').value;
+        let displacementDecode = document.getElementById('number').value;
+        document.getElementById('mensajePrograma').innerHTML = window.cipher.decode(initialToDecode, displacementDecode);
+    });
 }
