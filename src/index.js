@@ -1,11 +1,12 @@
 /* Acá va tu código */
-window.onload = function () {
+window.onload = () => {
     /*Botones*/
     const codeButton = document.getElementById('btn-cifrar');
     const encodeButton = document.getElementById('btn-descifrar');
 
     codeButton.addEventListener('click', () => {
-        document.getElementById('mensajeUsuario').value;
-        document.getElementById('number').value;
-        ('mensajePrograma').innerHTML = window.cipher.encode(initialCode, displacement);   
+        let initialToCode = document.getElementById('mensajeUsuario').value;
+        let displacementCode = document.getElementById('number').value;
+        document.getElementById('mensajePrograma').innerHTML = window.cipher.encode(initialToCode, displacementCode);   
     });
+}

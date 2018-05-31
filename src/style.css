@@ -41,7 +41,7 @@ div {
 		left: 85px;
 		margin: 0px;
 		border: 0px;
-    background-color: background: rgba(243,226,199,1);
+    background-color: rgba(243,226,199,1);
     background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(0%, rgba(243,226,199,1)), color-stop(57%, rgba(193,158,103,1)), color-stop(88%, rgba(182,141,76,1)), color-stop(100%, rgba(156,117,75,1)));
     background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
