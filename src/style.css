@@ -1,15 +1,16 @@
 /* Acá va tu código */
 div {
-    display: block;
-}
+	display: block;
+	}
+
 #caja-central{
-    width: 700px;
-    height: 400px;
-    position: relative;
-    left: 320px;
-    right: 320px;
-    top: 70px;
-    align-content: center;
+  width: 700px;
+  height: 400px;
+  position: relative;
+  left: 320px;
+  right: 320px;
+  top: 10px;
+  align-content: center;
 }
 
 #pregunta {
@@ -19,7 +20,7 @@ div {
 
 #descripcion {
     position: relative;;
-    top: 30px;
+    top: 0px;
     font: 17px "Ar Blanca";
     text-align: center;
     
@@ -31,13 +32,15 @@ div {
 }
 
 #btn-cifrar {
-    width: 200px;
-    height: 80px;
+    width: 180px;
+    height: 60px;
     border-radius: 10px;
     border-radius: 10px;
     position: relative;
     top: 0px;
-    left: 90px;
+		left: 85px;
+		margin: 0px;
+		border: 0px;
     background-color: background: rgba(243,226,199,1);
     background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(0%, rgba(243,226,199,1)), color-stop(57%, rgba(193,158,103,1)), color-stop(88%, rgba(182,141,76,1)), color-stop(100%, rgba(156,117,75,1)));
@@ -47,16 +50,16 @@ div {
     background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#9c754b', GradientType=1 );
     border: none;
-    color:black;   
+		color:black;   
 }
 
 #btn-descifrar {
-    width: 200px;
-    height: 80px;
+    width: 180px;
+    height: 60px;
     border-radius: 10px;
     border-radius: 10px;
     position: relative;
-    left: 200px;
+    left: 255px;
     top: 0px;
     background-color: background: rgba(243,226,199,1);
     background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
@@ -70,53 +73,46 @@ div {
     color:black;
 }
 
+#toMove {
+	position: relative;
+	top: 30px;
+	left: 300px;
+	width: 10px;
+	height: 10px;
+}
+
+#number {
+	position: relative;
+	top: 0px;
+	width: 30px;
+	left: 30px;
+}
+
 #textos {
     position: relative;
-    left: 300px;
-    top:0px;
+    left: 0px;
+		top:100px;
 }
 
 #mensajeUsuario {
     position: relative;
-    top: 10px;
-    left: 200px;
+		top: 0px;
+		left: 100px;
 }
 
 #mensajePrograma {
-    position: relative;
-    top: 10px;
-    left: 80px;
+		position: relative;
+    top: 0px;
+		left: 120px;
+		width: 270px;
+		height: 150px;
 }
 
 textarea {
-    width: 300px;
-    height: 170px;
+    width: 270px;
+    height: 150px;
     border-radius: 10px;
 }
-
-
-h2 {
-    position: relative;
-    margin: 20px;
-    left: 500px;
-    align-content: center
-
-}
-
-header {
-    width: 100%;
-    background: black;
-    opacity: 0.5;
-    padding-top:0px;
-    padding-left:0px;
-    padding-right:0px;
-    padding-bottom: 0px;
-    margin:0px;
-    text-align:center;
-    color: white;
-    font-size: 20px;
-    border: 1px solid black;
-   }
 
 #mensajeUsuario {
     position: relative;
@@ -131,40 +127,3 @@ body {
     background:transparent url('https://www.antonioorlandorodriguez.com/images/sepia-background.jpg') no-repeat;
     background-size: cover;    
    }
-
-.parrafo{
-    color: white;
-    background-position: center;
-    width: 200px;
-    padding:10px;
-    margin: 10px;
-    text-align: left;
-    height: 10px;
-    font-size: 20px;
-}
-
-
-
-input {
-    width: 500px;
-    background-color: white;
-    opacity: 0.6;
-    padding: 20px;
-    margin: 20px;
-    border: 0;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    text-align: center;
-    color:black
-    font-size: 30px;
-    height: 200px;
-    background-position: center;
-}
-
-#button1 {
-    align-content: center
-}
-
-.caja {
-background-position: center
-}
