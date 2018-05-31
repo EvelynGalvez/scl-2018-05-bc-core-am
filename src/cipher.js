@@ -16,7 +16,7 @@ window.cipher = {
     } 
   }
   let final1 = readyPhrase1.join('');
-  return final1.toLowerCase();
+  return final1;
 },
 
   decode: (initialToDecode, displacementDecode) => {
@@ -36,6 +36,6 @@ window.cipher = {
       }
    }
   let final2 = readyPhrase2.join('');
-  return final2.toLowerCase();
+  return final2;
 },
 }
