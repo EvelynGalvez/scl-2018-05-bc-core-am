@@ -52,7 +52,7 @@ aplicación web.
 accederá a nuestra aplicación y es aquí donde "se ve" el codigo funcionar, muestra
 lo realizado funcionando.
 * cipher.js: documento donde se encuentra el objeto y los métodos para dejar funcional
-la aplicación. En su contenido se encuentra el método encode(initialToCode, displacementCode) 
+la aplicación. En su contenido se encuentra el método encode (initialToCode, displacementCode) 
 y decode (initialToDecode, displacementDecode); encargados de la codificación y 
 decodificación respectivamente.
 * index.js: documento en que se enlaza el objeto con sus métodos y el index.
@@ -70,7 +70,7 @@ Posteriormente será desplegado usando GH pages.
 
 ### 1.6.1. Herramientas
 
-1- Editor de texto, ejemplo Visual Studio Code.
+1- Editor de texto, ejemplo Visual Studio Code.  
 2- Intérprete de comandos, dependiendo el sistema operativo que tengas. En este caso, para Windows, 
 se utilizó Git Bash.
 3- Debes instalar también Node.js
