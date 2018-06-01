@@ -5,9 +5,9 @@
 
 Se dice que Julio César usó este tipo de cifrado para enviar instrucciones a sus
 generales en los campos de batalla; básicamente, consiste en la sustitución de cada 
-desplazandola una cierta cantidad de espacios o posiciones en el alfabeto; antiguamente 
-esto se realizaba con el alfabeto latino. Hoy, mediante esta aplicación web podemos 
-codificar mensajes usando este método optimizado para nuestro alfabeto.
+letra desplazándola una cierta cantidad de espacios o posiciones en el alfabeto; 
+antiguamente esto se realizaba con el alfabeto latino. Hoy, mediante esta aplicación web 
+podemos codificar mensajes usando este método optimizado para nuestro alfabeto.
 
 ![caeser-cipher](http://quhist.com/wp-content/uploads/2012/07/Captura-de-pantalla-2012-07-25-a-las-21.12.22.png)
 
