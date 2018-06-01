@@ -1,7 +1,7 @@
 /* Acá va tu código */
 div {
-	display: block;
-	}
+  display: block;
+}
 
 #caja-central{
   width: 700px;
@@ -14,122 +14,120 @@ div {
 }
 
 #pregunta {
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font: bold 30px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font: bold 30px;
 }
 
 #descripcion {
-    position: relative;;
-    top: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
-    text-align: center;
-    
+  position: relative;
+  top: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  text-align: center;  
 }
 
 #botones {
-    position: relative;
-    top: 50px;
+  position: relative;
+  top: 50px;
 }
 
 #btn-cifrar {
-    width: 180px;
-    height: 60px;
-    border-radius: 10px;
-    border-radius: 10px;
-    position: relative;
-    top: 0px;
-	left: 85px;
-	margin: 0px;
-    border: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
-    background-color: rgba(243,226,199,1);
-    background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(0%, rgba(243,226,199,1)), color-stop(57%, rgba(193,158,103,1)), color-stop(88%, rgba(182,141,76,1)), color-stop(100%, rgba(156,117,75,1)));
-    background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
-    background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
-    background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
-    background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#9c754b', GradientType=1 );
-    border: none;
-	color:black;   
+  width: 180px;
+  height: 60px;
+  border-radius: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 0px;
+  left: 85px;
+  margin: 0px;
+  border: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  background-color: rgba(243,226,199,1);
+  background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(0%, rgba(243,226,199,1)), color-stop(57%, rgba(193,158,103,1)), color-stop(88%, rgba(182,141,76,1)), color-stop(100%, rgba(156,117,75,1)));
+  background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
+  background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
+  background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
+  background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#9c754b', GradientType=1 );
+  border: none;
+  color:black;   
 }
 
 #btn-descifrar {
-    width: 180px;
-    height: 60px;
-    border-radius: 10px;
-    border-radius: 10px;
-    position: relative;
-    left: 255px;
-    top: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
-    background-color: rgba(243,226,199,1);
-    background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(0%, rgba(243,226,199,1)), color-stop(57%, rgba(193,158,103,1)), color-stop(88%, rgba(182,141,76,1)), color-stop(100%, rgba(156,117,75,1)));
-    background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
-    background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
-    background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
-    background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#9c754b', GradientType=1 );
-    border: none;
-    color:black;
+  width: 180px;
+  height: 60px;
+  border-radius: 10px;
+  border-radius: 10px;
+  position: relative;
+  left: 255px;
+  top: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  background-color: rgba(243,226,199,1);
+  background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(0%, rgba(243,226,199,1)), color-stop(57%, rgba(193,158,103,1)), color-stop(88%, rgba(182,141,76,1)), color-stop(100%, rgba(156,117,75,1)));
+  background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
+  background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
+  background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
+  background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#9c754b', GradientType=1 );
+  border: none;
+  color:black;
 }
 
 #toMove {
-	position: relative;
-	top: 50px;
-	left: 300px;
-	width: 10px;
-	height: 10px;
+  position: relative;
+  top: 20px;
+  left: 300px;
+  width: 10px;
+  height: 10px;
 }
 
 #number {
-	position: relative;
-	top: 0px;
-	width: 30px;
-	left: 30px;
+  position: relative;
+  top: 0px;
+  width: 30px;
+  left: 30px;
 }
 
 #textos {
-    position: relative;
-    left: 0px;
-    top: 30px;
+  position: relative;
+  left: 0px;
+  top: 10px;
 }
 
 #mensajeUsuario {
-    position: relative;
-		top: 0px;
-		left: 100px;
+  position: relative;
+  top: 0px;
+  left: 100px;
 }
 
 #mensajePrograma {
-		position: relative;
-    top: 0px;
-		left: 120px;
-		width: 270px;
-		height: 150px;
+  position: relative;
+  top: 0px;
+  left: 120px;
+  width: 270px;
+  height: 150px;
 }
 
 textarea {
-    width: 270px;
-		height: 150px;
-		resize: none;
-    border-radius: 10px;
+  width: 270px;
+  height: 150px;
+  resize: none;
+  border-radius: 10px;
 }
 
 #mensajeUsuario {
-    position: relative;
-    left: 40px;
-
+  position: relative;
+  left: 40px;
 }
 
 body {
-    margin:0;
-    padding:0;
-    background:transparent url('https://www.antonioorlandorodriguez.com/images/sepia-background.jpg') no-repeat;
-    background-size: cover;    
-   }
+  margin:0;
+  padding:0;
+  background:transparent url('C:/Users/Usuario/Documents/Laboratoria/Proyecto/scl-2018-05-bc-core-am/src/img/sepia-background.jpg') no-repeat;
+  background-size: cover;    
+}

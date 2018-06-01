@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>    
-<div id="caja-central"><h1 id="pregunta">¿QUIERES CIFRAR O DESCIFRAR UN MENSAJE?</h1>
+  <body>    
+  <div id="caja-central"><h1 id="pregunta">¿QUIERES CIFRAR O DESCIFRAR UN MENSAJE?</h1>
     
     <div id="descripcion">
-        <p>El cifrado César, también conocido como cifrado por desplazamiento, es una de las técnicas de cifrado más usadas. Mueve cada letra un determinado número de espacios en el alfabeto. Por ejemplo, con un desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A)</p>
-        <p>Debes escribir lo que quieres cifrar en el cuadro de texto, indicar el número de desplazamiento en el cuadro señalado y finalmente dar click al botón "cifrar". Si lo que quieres es descifrar un mensaje, debes escribir tu mensaje codificado en el cuadro de texto, indicar el desplazamiento y dar click al botón "descifrar"</p>
+      <p>El cifrado César, también conocido como cifrado por desplazamiento, es una de las técnicas de cifrado más usadas. Mueve cada letra un determinado número de espacios en el alfabeto. Por ejemplo, con un desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A)</p>
+      <p>Debes escribir lo que quieres cifrar en el cuadro de texto, indicar el número de desplazamiento en el cuadro señalado y finalmente dar click al botón "cifrar". Si lo que quieres es descifrar un mensaje, debes escribir tu mensaje codificado en el cuadro de texto, indicar el desplazamiento y dar click al botón "descifrar"</p>
     </div>
     <div id="textos">
-        <textarea id="mensajeUsuario" placeholder="Ingresa mensaje a cifrar..."></textarea><textarea id="mensajePrograma" readonly></textarea>
+      <textarea id="mensajeUsuario" placeholder="Ingresa mensaje a cifrar..."></textarea><textarea id="mensajePrograma" readonly></textarea>
     </div>
     <div id="toMove">
-        <label id="desplazamiento" for="number"><strong>Desplazamiento: </strong></label>
-        <input id="number" type="number" name="number" min="0" max="100">
+      <label id="desplazamiento" for="number"><strong>Desplazamiento: </strong></label>
+      <input id="number" type="number" name="number" min="0" max="100">
     </div>
     <div id="botones">
-        <button id="btn-cifrar"><strong>CIFRAR MENSAJE</strong></button><button id="btn-descifrar"><strong>DESCIFRAR MENSAJE</strong></button>
+      <button id="btn-cifrar"><strong>CIFRAR MENSAJE</strong></button><button id="btn-descifrar"><strong>DESCIFRAR MENSAJE</strong></button>
     </div>
-</div>
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
-</body>
+  </div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
