@@ -45,7 +45,7 @@ para modificar el contenido; siendo así como se dió inicio a la elaboración d
 aplicación web.
 
 
-##1.4. Se confeccionaron los siguientes 5 archivos:
+## 1.4. Se confeccionaron los siguientes 5 archivos:
 
 * README.md: documento que contiene información sobre el proyecto.
 * index.html: Sin index, no hay aplicación web. Es la página principal que
@@ -60,22 +60,22 @@ decodificación respectivamente.
 como colores de fondo, tipos de fuente y posicionamiento de elementos.
 
 
-##1.5. Entrega
+## 1.5. Entrega
 El proyecto será subido a Github mediante la siguiente línea de comandos:
 cd (carpeta contenedora) > git init > git add . > git commit -m "mensajeDeCommit" > git push origin master 
 Posteriormente será desplegado usando GH pages.
 
 
-##1.6. Cómo usar (modo desarrollador)
+## 1.6. Cómo usar (modo desarrollador)
 
-###1.6.1. Herramientas
+### 1.6.1. Herramientas
 
 1- Editor de texto, ejemplo Visual Studio Code.
 2- Intérprete de comandos, dependiendo el sistema operativo que tengas. En este caso, para Windows, 
 se utilizó Git Bash.
 3- Debes instalar también Node.js
 
-###1.6.2. Ejecución
+### 1.6.2. Ejecución
 1- Utilizando la plataforma Github, haz Fork al repositorio que contiene la aplicación. Esto hará
 que tengas una copia de este repositorio en tu cuenta Github. 
 2- Utilizando el interprete de comandos, clona tu repositorio (copia del original en tu cuenta).
