@@ -15,20 +15,22 @@ div {
 
 #pregunta {
     text-align: center;
-    font: bold 30px "Ar Blanca";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold 30px;
 }
 
 #descripcion {
     position: relative;;
     top: 0px;
-    font: 17px "Ar Blanca";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
     text-align: center;
     
 }
 
 #botones {
     position: relative;
-    top: 20px;
+    top: 50px;
 }
 
 #btn-cifrar {
@@ -38,9 +40,11 @@ div {
     border-radius: 10px;
     position: relative;
     top: 0px;
-		left: 85px;
-		margin: 0px;
-		border: 0px;
+	left: 85px;
+	margin: 0px;
+    border: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
     background-color: rgba(243,226,199,1);
     background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(0%, rgba(243,226,199,1)), color-stop(57%, rgba(193,158,103,1)), color-stop(88%, rgba(182,141,76,1)), color-stop(100%, rgba(156,117,75,1)));
@@ -50,7 +54,7 @@ div {
     background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#9c754b', GradientType=1 );
     border: none;
-		color:black;   
+	color:black;   
 }
 
 #btn-descifrar {
@@ -61,6 +65,8 @@ div {
     position: relative;
     left: 255px;
     top: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
     background-color: rgba(243,226,199,1);
     background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 57%, rgba(182,141,76,1) 88%, rgba(156,117,75,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(0%, rgba(243,226,199,1)), color-stop(57%, rgba(193,158,103,1)), color-stop(88%, rgba(182,141,76,1)), color-stop(100%, rgba(156,117,75,1)));
@@ -75,7 +81,7 @@ div {
 
 #toMove {
 	position: relative;
-	top: 30px;
+	top: 50px;
 	left: 300px;
 	width: 10px;
 	height: 10px;
@@ -91,7 +97,7 @@ div {
 #textos {
     position: relative;
     left: 0px;
-		top:100px;
+    top: 30px;
 }
 
 #mensajeUsuario {
@@ -120,7 +126,6 @@ textarea {
     left: 40px;
 
 }
-
 
 body {
     margin:0;
