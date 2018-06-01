@@ -72,14 +72,14 @@ Posteriormente será desplegado usando GH pages.
 
 1- Editor de texto, ejemplo Visual Studio Code.  
 2- Intérprete de comandos, dependiendo el sistema operativo que tengas. En este caso, para Windows, 
-se utilizó Git Bash.
+se utilizó Git Bash.  
 3- Debes instalar también Node.js
 
 ### 1.6.2. Ejecución
 1- Utilizando la plataforma Github, haz Fork al repositorio que contiene la aplicación. Esto hará
-que tengas una copia de este repositorio en tu cuenta Github. 
-2- Utilizando el interprete de comandos, clona tu repositorio (copia del original en tu cuenta).
-3- Instala todo lo correspondiente a la aplicación mediante el comando npm install
+que tengas una copia de este repositorio en tu cuenta Github.  
+2- Utilizando el interprete de comandos, clona tu repositorio (copia del original en tu cuenta).  
+3- Instala todo lo correspondiente a la aplicación mediante el comando npm install.  
 4- Con el comando npm test, puedes realizar las pruebas y ver si pasan los test que se han incluido 
 previamente en el proyecto.
 
